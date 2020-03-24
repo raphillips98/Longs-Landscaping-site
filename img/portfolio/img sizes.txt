@@ -1,0 +1,3 @@
+small img: 500w x 333h
+
+large img: 1000w x 667h

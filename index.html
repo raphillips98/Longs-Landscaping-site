@@ -56,6 +56,7 @@
         <li><a href="#portfolio" class="page-scroll">Gallery</a></li>
         <li><a href="#testimonials" class="page-scroll">Testimonials</a></li>
         <li><a href="#contact" class="page-scroll">Contact</a></li>
+        <li><a href="https://longslandscaping.wufoo.com/forms/z2im8l80fdw8jl/" target="_blank" class="page-scroll">Order</a></li>
       </ul>
     </div>
     <!-- /.navbar-collapse --> 
@@ -68,11 +69,15 @@
     <div class="overlay">
       <div class="container">
         <div class="row">
-          <div class="col-md-8 col-md-offset-2 intro-text">
-            <h1>Landscaping and Lawn Maintenance</h1>
-            <p>Unbeatable quality<br>
+          <div class="col-md-8 col-md-offset-2 main-logo">
+            <a>
+              <img src="img/brad_logo_small.png" alt=" ">
+            </a>
+           <!-- <h1>Landscaping and Lawn Maintenance</h1>             <p>Unbeatable quality<br>
               At the best price.</p>
-            <a href="#about" class="btn btn-custom btn-lg page-scroll">More Info</a> </div>
+              <a href="#about" class="btn btn-custom btn-lg page-scroll">More Info</a>---><div class= " box"></div>
+          </div>
+
         </div>
       </div>
     </div>
@@ -131,9 +136,9 @@
         </div>
       </div>
       <div class="col-md-4 text-center">
-        <div class="service-media"> <img src="img/services/service-3.jpg" alt=" "> </div>
+        <div class="service-media"> <img src="img/services/pressure_wash.jpg" alt=" "> </div>
         <div class="service-desc">
-          <h3>Tree Care</h3>
+          <h3>Pressure Washing</h3>
           <p>Whether your yard just needs mowed once a week or once a month, we can do it! Fertilization, over-seeding, aeration, weed killing, mowing, trimming, and edging are all normal items we can add to your typical service.</p>
         </div>
       </div>
@@ -147,14 +152,17 @@
       <div class="col-md-4 text-center">
         <div class="service-media"> <img src="img/services/service-4.jpg" alt=" "> </div>
         <div class="service-desc">
-          <h3>Pressure Washing</h3>
+          <h3>Sod Installation</h3>
           <p>Description</p>
         </div>
       </div>
       <div class="col-md-4 text-center">
-        <div class="service-media"> <img src="img/services/service-4.jpg" alt=" "> </div>
+        <div class="service-media"> 
+        	<a href="#" data-filter=".landscaping"><img src="img/services/service-4.jpg" alt=" ">
+        	 </a>
+        </div>
         <div class="service-desc">
-          <h3>Sod Installation</h3>
+          <h3>Miscellaneous</h3>
           <p>Description</p>
         </div>
       </div>
@@ -163,7 +171,7 @@
 </div>
 <!-- Gallery Section -->
 <div id="portfolio">
-  <div class="container">
+  <div class="container-fluid">
     <div class="section-title text-center center">
       <h2>Project Gallery</h2>
       <hr>
@@ -175,8 +183,11 @@
           <ol class="type">
             <li><a href="#" data-filter="*" class="active">All</a></li>
             <li><a href="#" data-filter=".lawn">Lawn Care</a></li>
-            <li><a href="#" data-filter=".garden">Landscaping</a></li>
-            <li><a href="#" data-filter=".planting">Planting</a></li>
+            <li><a href="#" data-filter=".landscaping">Landscaping</a></li>
+            <li><a href="#" data-filter=".pressurewash">Pressure Wash</a></li>
+            <li><a href="#" data-filter=".propertycleanup">Property Cleanup</a></li>
+            <li><a href="#" data-filter=".sodinstallation">Sod Installation</a></li>
+            <li><a href="#" data-filter=".misc">Miscellaneous</a></li>
           </ol>
         </li>
       </ul>
@@ -184,7 +195,7 @@
     </div>
     <div class="row">
       <div class="portfolio-items">
-        <div class="col-sm-6 col-md-4 lawn">
+        <div class="col-md-2 lawn"> <!-- use offset-1 every 5th col--->
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="img/portfolio/01-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
               <div class="hover-text">
@@ -193,16 +204,16 @@
               <img src="img/portfolio/01-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4 planting">
+        <div class="col-md-2 misc">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/02-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="img/portfolio/driveway-large.jpg" title="Gravel Work" data-lightbox-gallery="gallery1">
               <div class="hover-text">
-                <h4>Planting</h4>
+                <h4>Miscellaneous</h4>
               </div>
-              <img src="img/portfolio/02-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+              <img src="img/portfolio/driveway-small.jpg" class="img-responsive" alt="Gravel Work"> </a> </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4 lawn">
+        <div class="col-md-2 lawn">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="img/portfolio/03-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
               <div class="hover-text">
@@ -211,7 +222,7 @@
               <img src="img/portfolio/03-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4 lawn">
+        <div class="col-md-2 lawn">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="img/portfolio/04-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
               <div class="hover-text">
@@ -220,16 +231,16 @@
               <img src="img/portfolio/04-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4 planting">
+        <div class="col-md-2 misc">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="img/portfolio/05-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
               <div class="hover-text">
-                <h4>Planting</h4>
+                <h4>Other</h4>
               </div>
               <img src="img/portfolio/05-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4 garden">
+        <div class="col-md-2 landscaping">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="img/portfolio/06-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
               <div class="hover-text">
@@ -238,16 +249,16 @@
               <img src="img/portfolio/06-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4 garden">
+        <div class="col-md-2 landscaping">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/07-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
+            <div class="hover-bg"> <a href="img/portfolio/pack-rock-large.jpg" title="Rock Walkway Installation" data-lightbox-gallery="gallery1">
               <div class="hover-text">
                 <h4>Landscaping</h4>
               </div>
-              <img src="img/portfolio/07-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+              <img src="img/portfolio/pack-rock-small.jpg" class="img-responsive" alt="Rock Walkway Installation"> </a> </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4 lawn">
+        <div class="col-md-2 lawn">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="img/portfolio/08-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
               <div class="hover-text">
@@ -256,11 +267,11 @@
               <img src="img/portfolio/08-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4 planting">
+        <div class="col-md-2 pressurewash">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="img/portfolio/09-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
               <div class="hover-text">
-                <h4>Planting</h4>
+                <h4>Pressure Wash</h4>
               </div>
               <img src="img/portfolio/09-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
@@ -301,10 +312,19 @@
 <!-- Contact Section -->
 <div id="contact" class="text-center">
   <div class="container">
-    <div class="section-title text-center">
-      <h2>Contact Us</h2>
+    <div class=" text-center">
+      <h2>Contact </h2>
       <hr>
-      <p>Schedule an estimate by calling Brad or emailing us.</p>
+      <p>
+      	<h4>
+      		Call Brad at <a href="tel:9312659736">(931) 265-9736</a> or email us at
+        	<a href="mailto:longslawncaretn@gmail.com">longslawncaretn@gmail.com.</a>
+        </h4>
+        <form action= "https://longslandscaping.wufoo.com/forms/z2im8l80fdw8jl/" method="get" target="_blank">
+      	<h4>Click the button to order an estimate for any of our services</h4>
+      	<button type="submit" class="btn btn-custom btn-lg">Order Now</button>
+      </form>
+  	  </p>
     </div>
     <!--<div class="col-md-10 col-md-offset-1 contact-info">
       <div class="col-md-4">
@@ -332,31 +352,8 @@
         </div>
       </div>
     </div>--->
-    <div class="col-md-8 col-md-offset-2">
-      <h3>Leave us a message</h3>
-      <form name="sentMessage" id="contactForm" novalidate>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="form-group">
-              <input type="text" id="name" class="form-control" placeholder="Name" required="required">
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="form-group">
-              <input type="email" id="email" class="form-control" placeholder="Email" required="required">
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-        </div>
-        <div class="form-group">
-          <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
-          <p class="help-block text-danger"></p>
-        </div>
-        <div id="success"></div>
-        <button type="submit" class="btn btn-custom btn-lg">Send Message</button>
-      </form>
-    </div>
+    <!--<div class="col-md-8 col-md-offset-2">
+    </div>--->
   </div>
 </div>
 <!-- Footer Section -->
@@ -365,9 +362,7 @@
     <div class="col-md-8 col-md-offset-2">
       <div class="social">
         <ul>
-          <li><a href="https://www.facebook.com/LongsLandscapingAndLawnMaintenance/?eid=ARBJjhfhhZdBCdC12yvYI0OUrRgbMCi8vOV3BomTzxqdyr27rZBOUWDBxacojCB3FnoGsHSUqQ673v6n&timeline_context_item_type=intro_card_work&timeline_context_item_source=100038604707176&fref=tag"><i class="fa fa-facebook"></i></a></li>
-          <!--<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
+          <li><a href="https://www.facebook.com/LongsLandscapingAndLawnMaintenance/?eid=ARBJjhfhhZdBCdC12yvYI0OUrRgbMCi8vOV3BomTzxqdyr27rZBOUWDBxacojCB3FnoGsHSUqQ673v6n&timeline_context_item_type=intro_card_work&timeline_context_item_source=100038604707176&fref=tag" target="_blank"><i class="fa fa-facebook"></i></a></li>
         </ul>
       </div>
       <p>&copy; 2020 Long's Landscaping. Designed by <a href="" rel="nofollow" target = "_blank">Ryan Phillips</a></p>
